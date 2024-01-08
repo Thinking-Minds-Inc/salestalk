@@ -85,7 +85,130 @@
 							<span class="menu-title">Permissions</span>
 						</a>
 						<!--end:Menu link-->
+					 </div>
+					 <div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/training-session/projects">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Projects</span>
+						</a>
+						<!--end:Menu link-->
 					</div>
+					 <div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/training-session/single-project">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Single Project</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/training-session/billing">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title"> Billing</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+                     
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/training-session/profile">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title"> Profile</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+                    
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/help-support/faq">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title"> Help Support Faq</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+
+					
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/help-support/contact">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Contact</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+					 
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/training-session">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Training Session</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+
+
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/conversion-review">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Conversion Review</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/help-support/organization">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Organization</span>
+						</a>
+						<!--end:Menu link-->
+					</div>		
+					
+					
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/training-session/subscriptions">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Subscriptions</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+
+					<div class="menu-item">
+						<!--begin:Menu link-->
+						<a class="menu-link " href="http://127.0.0.1:8000/user-management/training-session/upgrade-plan">
+							<span class="menu-bullet">
+								<span class="bullet bullet-dot"></span>
+							</span>
+							<span class="menu-title">Upgrade-Plan</span>
+						</a>
+						<!--end:Menu link-->
+					</div>
+
 					<!--end:Menu item-->
 				</div>
 				<!--end:Menu sub-->

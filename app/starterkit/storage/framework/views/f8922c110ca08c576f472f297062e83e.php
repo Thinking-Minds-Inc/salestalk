@@ -1,0 +1,1 @@
+<span class="ms-1" data-bs-toggle="tooltip" title="Specify a target priorty"><?php echo getIcon('information-5', 'text-gray-500 fs-6'); ?></span><?php /**PATH /Users/faizal/Sites/keenthemes/_releases/metronic_v8.2.1/laravel/metronic_laravel_v8.2.1/starterkit/resources/views/partials/general/_form-tooltip-hint.blade.php ENDPATH**/ ?>
