@@ -1,7 +1,7 @@
 <x-default-layout>
 
     @section('title')
-        Subscriptions
+       Subscriptions
     @endsection
 
 
@@ -14,42 +14,8 @@
 <div id="kt_app_toolbar" class="app-toolbar  py-3 py-lg-6 " bis_skin_checked="1">
 
             <!--begin::Toolbar container-->
-        <div id="kt_app_toolbar_container" class="app-container  container-xxl d-flex flex-stack " bis_skin_checked="1">
-            
-    
+        <div id="kt_app_toolbar_container" class="app-containers container-xxl d-flex flex-stack " bis_skin_checked="1">
 
-<!--begin::Page title-->
-<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3 " bis_skin_checked="1">
-    <!--begin::Title-->
-    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">
-        Subscriptions List
-            </h1>
-    <!--end::Title-->
-
-            
-        <!--begin::Breadcrumb-->
-        <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
-                            <!--begin::Item-->
-                                    <li class="breadcrumb-item text-muted">
-                                                    <a href="#" class="text-muted text-hover-primary">
-                                Home                            </a>
-                                            </li>
-                                <!--end::Item-->
-                                    <!--begin::Item-->
-                    <li class="breadcrumb-item">
-                        <span class="bullet bg-gray-500 w-5px h-2px"></span>
-                    </li>
-                    <!--end::Item-->
-                                        
-                            <!--begin::Item-->
-                                    <li class="breadcrumb-item text-muted">
-                                                    Subscription                                            </li>
-                                <!--end::Item-->
-                                        
-                    </ul>
-        <!--end::Breadcrumb-->
-    </div>
-<!--end::Page title-->
 <!--begin::Actions-->
 <div class="d-flex align-items-center gap-2 gap-lg-3" bis_skin_checked="1">
             <!--begin::Filter menu-->
@@ -86,8 +52,8 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_659be973e0c27" data-allow-clear="true" data-select2-id="select2-data-7-0zdk" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_659be973e0c27" data-allow-clear="true" data-select2-id="select2-data-7-0zdk" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Active</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
@@ -179,7 +145,7 @@
     
            
         <!--begin::Content container-->
-        <div id="kt_app_content_container" class="app-container  container-xxl " bis_skin_checked="1">
+        <div id="kt_app_content_container" class="app-containers container-xxl " bis_skin_checked="1">
             <!--begin::Card-->
 <div class="card" bis_skin_checked="1">
     <!--begin::Card header-->
@@ -889,8 +855,7 @@
                 <!--end::Modal title-->
 
                 <!--begin::Close-->
-                <div id="kt_subscriptions_export_close" class="btn btn-icon btn-sm btn-active-icon-primary" bis_skin_checked="1">
-                    <i class="ki-duotone ki-cross fs-1"><span class="path1"></span><span class="path2"></span></i>                </div>
+                <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal" bis_skin_checked="1"><span class="ki-duotone ki-cross fs-1"><span class="path1"></span><span class="path2"></span></span></div>
                 <!--end::Close-->
             </div>
             <!--end::Modal header-->

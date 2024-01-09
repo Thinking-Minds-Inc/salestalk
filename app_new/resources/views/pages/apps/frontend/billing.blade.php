@@ -1,8 +1,9 @@
 <x-default-layout>
 
     @section('title')
-        Billing
+       Billing
     @endsection
+
 
 
 

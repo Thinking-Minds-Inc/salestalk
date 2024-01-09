@@ -5,6 +5,7 @@
     @endsection
 
    
+
     <div class="app-main flex-column flex-row-fluid " id="kt_app_main" bis_skin_checked="1">
                 <!--begin::Content wrapper-->
                 <div class="d-flex flex-column flex-column-fluid" bis_skin_checked="1">
@@ -13,42 +14,10 @@
 <div id="kt_app_toolbar" class="app-toolbar  py-3 py-lg-6 " bis_skin_checked="1">
 
             <!--begin::Toolbar container-->
-        <div id="kt_app_toolbar_container" class="app-container  container-xxl d-flex flex-stack " bis_skin_checked="1">
+        <div id="kt_app_toolbar_container" class="app-containers container-xxl d-flex flex-stack " bis_skin_checked="1">
             
     
 
-<!--begin::Page title-->
-<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3 " bis_skin_checked="1">
-    <!--begin::Title-->
-    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">
-        View Project
-            </h1>
-    <!--end::Title-->
-
-            
-        <!--begin::Breadcrumb-->
-        <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
-                            <!--begin::Item-->
-                                    <li class="breadcrumb-item text-muted">
-                                                    <a href="/metronic8/demo1/../demo1/index.html" class="text-muted text-hover-primary">
-                                Home                            </a>
-                                            </li>
-                                <!--end::Item-->
-                                    <!--begin::Item-->
-                    <li class="breadcrumb-item">
-                        <span class="bullet bg-gray-500 w-5px h-2px"></span>
-                    </li>
-                    <!--end::Item-->
-                                        
-                            <!--begin::Item-->
-                                    <li class="breadcrumb-item text-muted">
-                                                    Projects                                            </li>
-                                <!--end::Item-->
-                                        
-                    </ul>
-        <!--end::Breadcrumb-->
-    </div>
-<!--end::Page title-->
 <!--begin::Actions-->
 <div class="d-flex align-items-center gap-2 gap-lg-3" bis_skin_checked="1">
             <!--begin::Filter menu-->
@@ -85,7 +54,7 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d68012b" data-allow-clear="true" data-select2-id="select2-data-7-6dpx" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                <select class="form-select form-select-solid select2-hidden-accessible"  data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d68012b" data-allow-clear="true" data-select2-id="select2-data-7-6dpx" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                     <option></option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
@@ -177,7 +146,7 @@
     
            
         <!--begin::Content container-->
-        <div id="kt_app_content_container" class="app-container  container-xxl " bis_skin_checked="1">
+        <div id="kt_app_content_container" class="app-containers container-xxl " bis_skin_checked="1">
             
 <!--begin::Navbar-->
 <div class="card mb-6 mb-xl-9" bis_skin_checked="1">
@@ -629,12 +598,12 @@
         <!--begin::Card toolbar-->
         <div class="card-toolbar" bis_skin_checked="1">
             <!--begin::Select-->
-            <select name="status" data-control="select2" data-hide-search="true" class="form-select form-select-solid form-select-sm fw-bold w-100px select2-hidden-accessible" data-select2-id="select2-data-9-zacg" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+            <select name="status" data-control="select2" data-hide-search="true" class="form-select form-select-solid form-select-sm fw-bold w-100px" data-select2-id="select2-data-9-zacg" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                 <option value="1">2020 Q1</option>
                 <option value="2">2020 Q2</option>
                 <option value="3" selected="" data-select2-id="select2-data-11-gh0z">2020 Q3</option>
                 <option value="4">2020 Q4</option>
-            </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-10-6g5o" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid form-select-sm fw-bold w-100px" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-status-zf-container" aria-controls="select2-status-zf-container"><span class="select2-selection__rendered" id="select2-status-zf-container" role="textbox" aria-readonly="true" title="2020 Q3">2020 Q3</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </select>
             <!--end::Select-->
         </div>
         <!--end::Card toolbar-->
@@ -642,7 +611,7 @@
     <!--end::Card header-->
 
     <!--begin::Card body-->
-    <div class="card-body pt-10 pb-0 px-5" bis_skin_checked="1">
+    <div class="card-body overflow-hidden pt-10 pb-0 px-5" bis_skin_checked="1">
         <!--begin::Chart-->
         <div id="kt_project_overview_graph" class="card-rounded-bottom" style="height: 300px; min-height: 315px;" bis_skin_checked="1"><div id="apexcharts3msjm9fw" class="apexcharts-canvas apexcharts3msjm9fw apexcharts-theme-light" bis_skin_checked="1" style="width: 581px; height: 300px;"><svg id="SvgjsSvg1092" width="581" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg apexcharts-zoomable" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><foreignObject x="0" y="0" width="581" height="300"><div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml" bis_skin_checked="1" style="max-height: 150px;"></div></foreignObject><rect id="SvgjsRect1122" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1149" class="apexcharts-yaxis" rel="0" transform="translate(12.397705078125, 0)"><g id="SvgjsG1150" class="apexcharts-yaxis-texts-g"><text id="SvgjsText1152" font-family="Helvetica, Arial, sans-serif" x="20" y="31.5" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1153">84</tspan><title>84</title></text><text id="SvgjsText1155" font-family="Helvetica, Arial, sans-serif" x="20" y="77.646" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1156">77</tspan><title>77</title></text><text id="SvgjsText1158" font-family="Helvetica, Arial, sans-serif" x="20" y="123.792" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1159">70</tspan><title>70</title></text><text id="SvgjsText1161" font-family="Helvetica, Arial, sans-serif" x="20" y="169.938" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1162">63</tspan><title>63</title></text><text id="SvgjsText1164" font-family="Helvetica, Arial, sans-serif" x="20" y="216.084" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1165">56</tspan><title>56</title></text><text id="SvgjsText1167" font-family="Helvetica, Arial, sans-serif" x="20" y="262.23" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1168">49</tspan><title>49</title></text></g></g><g id="SvgjsG1094" class="apexcharts-inner apexcharts-graphical" transform="translate(42.397705078125, 30)"><defs id="SvgjsDefs1093"><clipPath id="gridRectMask3msjm9fw"><rect id="SvgjsRect1097" width="523.399169921875" height="246.73000000000002" x="-5" y="-8" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMask3msjm9fw"></clipPath><clipPath id="nonForecastMask3msjm9fw"></clipPath><clipPath id="gridRectMarkerMask3msjm9fw"><rect id="SvgjsRect1098" width="520.399169921875" height="234.73000000000002" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><g id="SvgjsG1110" class="apexcharts-grid"><g id="SvgjsG1111" class="apexcharts-gridlines-horizontal"><line id="SvgjsLine1115" x1="0" y1="46.146" x2="516.399169921875" y2="46.146" stroke="#f1f1f4" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1116" x1="0" y1="92.292" x2="516.399169921875" y2="92.292" stroke="#f1f1f4" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1117" x1="0" y1="138.438" x2="516.399169921875" y2="138.438" stroke="#f1f1f4" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1118" x1="0" y1="184.584" x2="516.399169921875" y2="184.584" stroke="#f1f1f4" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1112" class="apexcharts-gridlines-vertical"></g><line id="SvgjsLine1121" x1="0" y1="230.73000000000002" x2="516.399169921875" y2="230.73000000000002" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1120" x1="0" y1="1" x2="0" y2="230.73000000000002" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1113" class="apexcharts-grid-borders"><line id="SvgjsLine1114" x1="0" y1="0" x2="516.399169921875" y2="0" stroke="#f1f1f4" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1119" x1="0" y1="230.73000000000002" x2="516.399169921875" y2="230.73000000000002" stroke="#f1f1f4" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1099" class="apexcharts-area-series apexcharts-plot-series"><g id="SvgjsG1100" class="apexcharts-series" zIndex="0" seriesName="Incomplete" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath1103" d="M 0 230.73000000000002 L 0 92.29199999999997C14.34442138671875, 92.29199999999997, 57.377685546875, 92.29199999999997, 86.0665283203125, 92.29199999999997S143.4442138671875, 26.369142857142833, 172.133056640625, 26.369142857142833S229.5107421875, 26.369142857142833, 258.1995849609375, 26.369142857142833S315.5772705078125, 59.33057142857143, 344.26611328125, 59.33057142857143S401.643798828125, 59.33057142857143, 430.3326416015625, 59.33057142857143S502.05474853515625, 59.33057142857143, 516.399169921875, 59.33057142857143 L 516.399169921875 230.73000000000002 L 0 230.73000000000002M 0 92.29199999999997z" fill="rgba(233,243,255,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMask3msjm9fw)" pathTo="M 0 230.73000000000002 L 0 92.29199999999997C14.34442138671875, 92.29199999999997, 57.377685546875, 92.29199999999997, 86.0665283203125, 92.29199999999997S143.4442138671875, 26.369142857142833, 172.133056640625, 26.369142857142833S229.5107421875, 26.369142857142833, 258.1995849609375, 26.369142857142833S315.5772705078125, 59.33057142857143, 344.26611328125, 59.33057142857143S401.643798828125, 59.33057142857143, 430.3326416015625, 59.33057142857143S502.05474853515625, 59.33057142857143, 516.399169921875, 59.33057142857143 L 516.399169921875 230.73000000000002 L 0 230.73000000000002M 0 92.29199999999997z" pathFrom="M -1 553.7520000000001 L -1 553.7520000000001 L 86.0665283203125 553.7520000000001 L 172.133056640625 553.7520000000001 L 258.1995849609375 553.7520000000001 L 344.26611328125 553.7520000000001 L 430.3326416015625 553.7520000000001 L 516.399169921875 553.7520000000001"></path><path id="SvgjsPath1104" d="M 0 92.29199999999997C14.34442138671875, 92.29199999999997, 57.377685546875, 92.29199999999997, 86.0665283203125, 92.29199999999997S143.4442138671875, 26.369142857142833, 172.133056640625, 26.369142857142833S229.5107421875, 26.369142857142833, 258.1995849609375, 26.369142857142833S315.5772705078125, 59.33057142857143, 344.26611328125, 59.33057142857143S401.643798828125, 59.33057142857143, 430.3326416015625, 59.33057142857143S502.05474853515625, 59.33057142857143, 516.399169921875, 59.33057142857143" fill="none" fill-opacity="1" stroke="#1b84ff" stroke-opacity="1" stroke-linecap="butt" stroke-width="3" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMask3msjm9fw)" pathTo="M 0 92.29199999999997C14.34442138671875, 92.29199999999997, 57.377685546875, 92.29199999999997, 86.0665283203125, 92.29199999999997S143.4442138671875, 26.369142857142833, 172.133056640625, 26.369142857142833S229.5107421875, 26.369142857142833, 258.1995849609375, 26.369142857142833S315.5772705078125, 59.33057142857143, 344.26611328125, 59.33057142857143S401.643798828125, 59.33057142857143, 430.3326416015625, 59.33057142857143S502.05474853515625, 59.33057142857143, 516.399169921875, 59.33057142857143" pathFrom="M -1 553.7520000000001 L -1 553.7520000000001 L 86.0665283203125 553.7520000000001 L 172.133056640625 553.7520000000001 L 258.1995849609375 553.7520000000001 L 344.26611328125 553.7520000000001 L 430.3326416015625 553.7520000000001 L 516.399169921875 553.7520000000001" fill-rule="evenodd"></path><g id="SvgjsG1101" class="apexcharts-series-markers-wrap apexcharts-hidden-element-shown" data:realIndex="0"><g class="apexcharts-series-markers"><circle id="SvgjsCircle1172" r="0" cx="0" cy="0" class="apexcharts-marker wbqahdfim no-pointer-events" stroke="#1b84ff" fill="#e9f3ff" fill-opacity="1" stroke-width="3" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG1105" class="apexcharts-series" zIndex="1" seriesName="Complete" data:longestSeries="true" rel="2" data:realIndex="1"><path id="SvgjsPath1108" d="M 0 230.73000000000002 L 0 191.1762857142857C14.34442138671875, 191.1762857142857, 57.377685546875, 191.1762857142857, 86.0665283203125, 191.1762857142857S143.4442138671875, 158.21485714285717, 172.133056640625, 158.21485714285717S229.5107421875, 158.21485714285717, 258.1995849609375, 158.21485714285717S315.5772705078125, 191.1762857142857, 344.26611328125, 191.1762857142857S401.643798828125, 191.1762857142857, 430.3326416015625, 191.1762857142857S503.8895445415596, 163.00574544143026, 516.399169921875, 158.21485714285717 L 516.399169921875 230.73000000000002 L 0 230.73000000000002M 0 191.1762857142857z" fill="rgba(223,255,234,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="1" clip-path="url(#gridRectMask3msjm9fw)" pathTo="M 0 230.73000000000002 L 0 191.1762857142857C14.34442138671875, 191.1762857142857, 57.377685546875, 191.1762857142857, 86.0665283203125, 191.1762857142857S143.4442138671875, 158.21485714285717, 172.133056640625, 158.21485714285717S229.5107421875, 158.21485714285717, 258.1995849609375, 158.21485714285717S315.5772705078125, 191.1762857142857, 344.26611328125, 191.1762857142857S401.643798828125, 191.1762857142857, 430.3326416015625, 191.1762857142857S503.8895445415596, 163.00574544143026, 516.399169921875, 158.21485714285717 L 516.399169921875 230.73000000000002 L 0 230.73000000000002M 0 191.1762857142857z" pathFrom="M -1 553.7520000000001 L -1 553.7520000000001 L 86.0665283203125 553.7520000000001 L 172.133056640625 553.7520000000001 L 258.1995849609375 553.7520000000001 L 344.26611328125 553.7520000000001 L 430.3326416015625 553.7520000000001 L 516.399169921875 553.7520000000001"></path><path id="SvgjsPath1109" d="M 0 191.1762857142857C14.34442138671875, 191.1762857142857, 57.377685546875, 191.1762857142857, 86.0665283203125, 191.1762857142857S143.4442138671875, 158.21485714285717, 172.133056640625, 158.21485714285717S229.5107421875, 158.21485714285717, 258.1995849609375, 158.21485714285717S315.5772705078125, 191.1762857142857, 344.26611328125, 191.1762857142857S401.643798828125, 191.1762857142857, 430.3326416015625, 191.1762857142857S503.8895445415596, 163.00574544143026, 516.399169921875, 158.21485714285717" fill="none" fill-opacity="1" stroke="#17c653" stroke-opacity="1" stroke-linecap="butt" stroke-width="3" stroke-dasharray="0" class="apexcharts-area" index="1" clip-path="url(#gridRectMask3msjm9fw)" pathTo="M 0 191.1762857142857C14.34442138671875, 191.1762857142857, 57.377685546875, 191.1762857142857, 86.0665283203125, 191.1762857142857S143.4442138671875, 158.21485714285717, 172.133056640625, 158.21485714285717S229.5107421875, 158.21485714285717, 258.1995849609375, 158.21485714285717S315.5772705078125, 191.1762857142857, 344.26611328125, 191.1762857142857S401.643798828125, 191.1762857142857, 430.3326416015625, 191.1762857142857S503.8895445415596, 163.00574544143026, 516.399169921875, 158.21485714285717" pathFrom="M -1 553.7520000000001 L -1 553.7520000000001 L 86.0665283203125 553.7520000000001 L 172.133056640625 553.7520000000001 L 258.1995849609375 553.7520000000001 L 344.26611328125 553.7520000000001 L 430.3326416015625 553.7520000000001 L 516.399169921875 553.7520000000001" fill-rule="evenodd"></path><g id="SvgjsG1106" class="apexcharts-series-markers-wrap apexcharts-hidden-element-shown" data:realIndex="1"><g class="apexcharts-series-markers"><circle id="SvgjsCircle1173" r="0" cx="0" cy="0" class="apexcharts-marker wr3lrgptug no-pointer-events" stroke="#17c653" fill="#dfffea" fill-opacity="1" stroke-width="3" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG1102" class="apexcharts-datalabels" data:realIndex="0"></g><g id="SvgjsG1107" class="apexcharts-datalabels" data:realIndex="1"></g></g><line id="SvgjsLine1123" x1="0" y1="0" x2="0" y2="230.73000000000002" stroke="#1b84ff" stroke-dasharray="3" stroke-linecap="butt" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="230.73000000000002" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><line id="SvgjsLine1124" x1="0" y1="0" x2="516.399169921875" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1125" x1="0" y1="0" x2="516.399169921875" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1126" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1127" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"><text id="SvgjsText1129" font-family="Helvetica, Arial, sans-serif" x="0" y="259.73" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1130">Feb</tspan><title>Feb</title></text><text id="SvgjsText1132" font-family="Helvetica, Arial, sans-serif" x="86.0665283203125" y="259.73" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1133">Mar</tspan><title>Mar</title></text><text id="SvgjsText1135" font-family="Helvetica, Arial, sans-serif" x="172.133056640625" y="259.73" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1136">Apr</tspan><title>Apr</title></text><text id="SvgjsText1138" font-family="Helvetica, Arial, sans-serif" x="258.1995849609375" y="259.73" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1139">May</tspan><title>May</title></text><text id="SvgjsText1141" font-family="Helvetica, Arial, sans-serif" x="344.26611328125" y="259.73" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1142">Jun</tspan><title>Jun</title></text><text id="SvgjsText1144" font-family="Helvetica, Arial, sans-serif" x="430.3326416015625" y="259.73" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1145">Jul</tspan><title>Jul</title></text><text id="SvgjsText1147" font-family="Helvetica, Arial, sans-serif" x="516.399169921875" y="259.73" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#99a1b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan1148">Aug</tspan><title>Aug</title></text></g></g><g id="SvgjsG1169" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1170" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1171" class="apexcharts-point-annotations"></g><rect id="SvgjsRect1174" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe" class="apexcharts-zoom-rect"></rect><rect id="SvgjsRect1175" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe" class="apexcharts-selection-rect"></rect></g></svg><div class="apexcharts-tooltip apexcharts-theme-light" bis_skin_checked="1"><div class="apexcharts-tooltip-title" bis_skin_checked="1" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"></div><div class="apexcharts-tooltip-series-group" bis_skin_checked="1" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(233, 243, 255);"></span><div class="apexcharts-tooltip-text" bis_skin_checked="1" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group" bis_skin_checked="1"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div><div class="apexcharts-tooltip-goals-group" bis_skin_checked="1"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group" bis_skin_checked="1"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div><div class="apexcharts-tooltip-series-group" bis_skin_checked="1" style="order: 2;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(223, 255, 234);"></span><div class="apexcharts-tooltip-text" bis_skin_checked="1" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group" bis_skin_checked="1"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div><div class="apexcharts-tooltip-goals-group" bis_skin_checked="1"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group" bis_skin_checked="1"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-xaxistooltip apexcharts-xaxistooltip-bottom apexcharts-theme-light" bis_skin_checked="1"><div class="apexcharts-xaxistooltip-text" bis_skin_checked="1" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light" bis_skin_checked="1"><div class="apexcharts-yaxistooltip-text" bis_skin_checked="1"></div></div></div></div>
         <!--end::Chart-->
@@ -1963,13 +1932,14 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6803d8" data-allow-clear="true" data-select2-id="select2-data-15-90ak" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid"  data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6803d8" data-allow-clear="true" data-select2-id="select2-data-15-90ak" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-16-9cjq" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-kizr-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-kizr-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
+
             </div>
             <!--end::Input-->
         </div>
@@ -2083,13 +2053,13 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6803e8" data-allow-clear="true" data-select2-id="select2-data-17-sx5n" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid "  data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6803e8" data-allow-clear="true" data-select2-id="select2-data-17-sx5n" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option </option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-18-wz2z" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-hqwq-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-hqwq-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
             </div>
             <!--end::Input-->
         </div>
@@ -2203,13 +2173,14 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6803f6" data-allow-clear="true" data-select2-id="select2-data-19-sta7" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid"  data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6803f6" data-allow-clear="true" data-select2-id="select2-data-19-sta7" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-20-6oo2" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-iyxo-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-iyxo-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
+
             </div>
             <!--end::Input-->
         </div>
@@ -2323,13 +2294,14 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d680404" data-allow-clear="true" data-select2-id="select2-data-21-jk02" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid " data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d680404" data-allow-clear="true" data-select2-id="select2-data-21-jk02" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-22-toio" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-osme-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-osme-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
+
             </div>
             <!--end::Input-->
         </div>
@@ -2678,13 +2650,14 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804a6" data-allow-clear="true" data-select2-id="select2-data-23-ghem" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid"  data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804a6" data-allow-clear="true" data-select2-id="select2-data-23-ghem" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option </option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-24-0vlf" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-eucl-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-eucl-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
+
             </div>
             <!--end::Input-->
         </div>
@@ -2804,13 +2777,13 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804b4" data-allow-clear="true" data-select2-id="select2-data-25-k23h" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804b4" data-allow-clear="true" data-select2-id="select2-data-25-k23h" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-26-ulj4" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-f8fd-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-f8fd-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
             </div>
             <!--end::Input-->
         </div>
@@ -2930,13 +2903,13 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804c2" data-allow-clear="true" data-select2-id="select2-data-27-c4wa" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804c2" data-allow-clear="true" data-select2-id="select2-data-27-c4wa" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-28-8zgj" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-p2og-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-p2og-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
             </div>
             <!--end::Input-->
         </div>
@@ -3056,13 +3029,14 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804ce" data-allow-clear="true" data-select2-id="select2-data-29-4u3z" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804ce" data-allow-clear="true" data-select2-id="select2-data-29-4u3z" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-30-ohxm" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-hmd2-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-hmd2-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
+
             </div>
             <!--end::Input-->
         </div>
@@ -3182,13 +3156,14 @@
 
             <!--begin::Input-->
             <div bis_skin_checked="1">
-                <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804dc" data-allow-clear="true" data-select2-id="select2-data-31-51b7" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-                    <option></option>
+                <select class="form-select form-select-solid"  data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597c8d6804dc" data-allow-clear="true" data-select2-id="select2-data-31-51b7" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                    <option>Select option</option>
                     <option value="1">Approved</option>
                     <option value="2">Pending</option>
                     <option value="2">In Process</option>
                     <option value="2">Rejected</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-32-ngir" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-8aqd-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-8aqd-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
+
             </div>
             <!--end::Input-->
         </div>
@@ -3278,25 +3253,26 @@
         <div class="card-toolbar my-1" bis_skin_checked="1">
             <!--begin::Select-->
             <div class="me-6 my-1" bis_skin_checked="1">
-                <select id="kt_filter_year" name="year" data-control="select2" data-hide-search="true" class="w-125px form-select form-select-solid form-select-sm select2-hidden-accessible" data-select2-id="select2-data-kt_filter_year" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                <select id="kt_filter_year" name="year" data-control="select2" data-hide-search="true" class="w-125px form-select form-select-solid form-select-sm" data-select2-id="select2-data-kt_filter_year" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                     <option value="All" selected="" data-select2-id="select2-data-34-mv8q">All time</option>
                     <option value="thisyear">This year</option>
                     <option value="thismonth">This month</option>
                     <option value="lastmonth">Last month</option>
                     <option value="last90days">Last 90 days</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-33-cxxf" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single w-125px form-select form-select-solid form-select-sm" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-kt_filter_year-container" aria-controls="select2-kt_filter_year-container"><span class="select2-selection__rendered" id="select2-kt_filter_year-container" role="textbox" aria-readonly="true" title="All time">All time</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
             </div>
             <!--end::Select-->
 
             <!--begin::Select-->
             <div class="me-4 my-1" bis_skin_checked="1">
-                <select id="kt_filter_orders" name="orders" data-control="select2" data-hide-search="true" class="w-125px form-select form-select-solid form-select-sm select2-hidden-accessible" data-select2-id="select2-data-kt_filter_orders" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+                <select id="kt_filter_orders" name="orders" data-control="select2" data-hide-search="true" class="w-125px form-select form-select-solid form-select-sm" data-select2-id="select2-data-kt_filter_orders" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                     <option value="All" selected="" data-select2-id="select2-data-36-bwfu">All Orders</option>
                     <option value="Approved">Approved</option>
                     <option value="Declined">Declined</option>
                     <option value="In Progress">In Progress</option>
                     <option value="In Transit">In Transit</option>
-                </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-35-1m3m" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single w-125px form-select form-select-solid form-select-sm" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-kt_filter_orders-container" aria-controls="select2-kt_filter_orders-container"><span class="select2-selection__rendered" id="select2-kt_filter_orders-container" role="textbox" aria-readonly="true" title="All Orders">All Orders</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                </select>
+
             </div>
             <!--end::Select-->
 

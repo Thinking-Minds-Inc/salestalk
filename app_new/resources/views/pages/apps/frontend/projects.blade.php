@@ -1,28 +1,31 @@
 <x-default-layout>
 
     @section('title')
-     Projects 
+        Projects
     @endsection
 
+    @section('breadcrumbs')
+        {{ Breadcrumbs::render('user-management.permissions.index') }}
+    @endsection
 
   <div class="d-flex flex-wrap flex-stack mb-6" bis_skin_checked="1">
     <!--begin::Heading-->
-    <h3 class="fw-bold my-2">
+    <!-- <h3 class="fw-bold my-2">
         My Projects 
         <span class="fs-6 text-gray-500 fw-semibold ms-1">Active</span>
-    </h3>
+    </h3> -->
     <!--end::Heading-->
 
     <!--begin::Actions-->
     <div class="d-flex flex-wrap my-2" bis_skin_checked="1">
         <div class="me-4" bis_skin_checked="1">
             <!--begin::Select-->
-            <select name="status" data-control="select2" data-hide-search="true" class="form-select form-select-sm form-select-solid w-125px select2-hidden-accessible" data-select2-id="select2-data-9-bdiy" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+            <select name="status" data-control="select2" data-hide-search="true" class="form-select form-select-sm form-select-solid w-125px" data-select2-id="select2-data-9-bdiy" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                 <option value="Active" selected="" data-select2-id="select2-data-11-k5mr">Active</option>
                 <option value="Approved">In Progress</option>
                 <option value="Declined">To Do</option>
                 <option value="In Progress">Completed</option>
-            </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-10-ssh3" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-sm form-select-solid w-125px" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-status-d4-container" aria-controls="select2-status-d4-container"><span class="select2-selection__rendered" id="select2-status-d4-container" role="textbox" aria-readonly="true" title="Active">Active</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </select>
             <!--end::Select-->
         </div>
 
@@ -38,7 +41,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -124,7 +127,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -205,7 +208,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -291,7 +294,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -372,7 +375,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -458,7 +461,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -539,7 +542,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -625,7 +628,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->
@@ -706,7 +709,7 @@
     <div class="col-md-6 col-xl-4" bis_skin_checked="1">
         
 <!--begin::Card-->
-<a href="/metronic8/demo1/../demo1/apps/projects/project.html" class="card border-hover-primary ">
+<a href="{{ route('frontend.single-project') }}" class="card border-hover-primary ">
     <!--begin::Card header-->
     <div class="card-header border-0 pt-9" bis_skin_checked="1">
         <!--begin::Card Title-->

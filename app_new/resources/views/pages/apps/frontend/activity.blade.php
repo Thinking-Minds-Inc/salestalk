@@ -1,7 +1,7 @@
 <x-default-layout>
 
     @section('title')
-        Activity
+       Activity
     @endsection
 
   
@@ -10,51 +10,17 @@
     <div id="kt_app_toolbar" class="app-toolbar  py-3 py-lg-6 " bis_skin_checked="1">
 
 <!--begin::Toolbar container-->
-<div id="kt_app_toolbar_container" class="app-container  container-xxl d-flex flex-stack " bis_skin_checked="1">
+<div id="kt_app_toolbar_containers" class="app-containers container-xxl d-flex flex-stack " bis_skin_checked="1">
 
-
-
-<!--begin::Page title-->
-<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3 " bis_skin_checked="1">
-<!--begin::Title-->
-<h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">
-Activity
-</h1>
-<!--end::Title-->
-
-
-<!--begin::Breadcrumb-->
-<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
-                <!--begin::Item-->
-                        <li class="breadcrumb-item text-muted">
-                                        <a href="/metronic8/demo1/../demo1/index.html" class="text-muted text-hover-primary">
-                    Home                            </a>
-                                </li>
-                    <!--end::Item-->
-                        <!--begin::Item-->
-        <li class="breadcrumb-item">
-            <span class="bullet bg-gray-500 w-5px h-2px"></span>
-        </li>
-        <!--end::Item-->
-                            
-                <!--begin::Item-->
-                        <li class="breadcrumb-item text-muted">
-                                        User Profile                                            </li>
-                    <!--end::Item-->
-                            
-        </ul>
-<!--end::Breadcrumb-->
-</div>
-<!--end::Page title-->
 <!--begin::Actions-->
 <div class="d-flex align-items-center gap-2 gap-lg-3" bis_skin_checked="1">
 <!--begin::Filter menu-->
 <div class="m-0" bis_skin_checked="1">
 <!--begin::Menu toggle-->
-<a href="#" class="btn btn-sm btn-flex btn-secondary fw-bold" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-    <i class="ki-duotone ki-filter fs-6 text-muted me-1"><span class="path1"></span><span class="path2"></span></i>               
-    Filter
-</a>
+    <a href="#" class="btn btn-sm btn-flex btn-secondary fw-bold" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+        <i class="ki-duotone ki-filter fs-6 text-muted me-1"><span class="path1"></span><span class="path2"></span></i>               
+        Filter
+    </a>
 <!--end::Menu toggle-->
 
 
@@ -82,13 +48,13 @@ Activity
 
 <!--begin::Input-->
 <div bis_skin_checked="1">
-    <select class="form-select form-select-solid select2-hidden-accessible" multiple="" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597a657372a7" data-allow-clear="true" data-select2-id="select2-data-7-b78o" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-        <option></option>
+    <select class="form-select form-select-solid" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_6597a657372a7" data-allow-clear="true" data-select2-id="select2-data-7-b78o" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+        <option>Select Option</option>
         <option value="1">Approved</option>
         <option value="2">Pending</option>
         <option value="2">In Process</option>
         <option value="2">Rejected</option>
-    </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-8-84c2" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-68id-container"></ul><span class="select2-search select2-search--inline"><textarea class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" aria-describedby="select2-68id-container" placeholder="Select option" style="width: 100%;"></textarea></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+    </select>
 </div>
 <!--end::Input-->
 </div>
@@ -425,37 +391,19 @@ Create        </a>
         <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
                             <!--begin::Nav item-->
                 <li class="nav-item mt-2">
-                    <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="/metronic8/demo1/../demo1/pages/user-profile/overview.html">
+                    <a class="nav-link text-active-primary ms-0 me-10 py-5" href="{{ route('frontend.profile') }}">
                         Overview                    </a>
                 </li>
                 <!--end::Nav item-->
                             <!--begin::Nav item-->
                 <li class="nav-item mt-2">
-                    <a class="nav-link text-active-primary ms-0 me-10 py-5 " href="/metronic8/demo1/../demo1/pages/user-profile/projects.html">
+                    <a class="nav-link text-active-primary ms-0 me-10 py-5" href="{{ route('frontend.projects') }}">
                         Projects                    </a>
                 </li>
                 <!--end::Nav item-->
                             <!--begin::Nav item-->
-                <!-- <li class="nav-item mt-2">
-                    <a class="nav-link text-active-primary ms-0 me-10 py-5 " href="/metronic8/demo1/../demo1/pages/user-profile/campaigns.html">
-                        Campaigns                    </a>
-                </li> -->
-                <!--end::Nav item-->
-                            <!--begin::Nav item-->
-                <!-- <li class="nav-item mt-2">
-                    <a class="nav-link text-active-primary ms-0 me-10 py-5 " href="/metronic8/demo1/../demo1/pages/user-profile/documents.html">
-                        Documents                    </a>
-                </li> -->
-                <!--end::Nav item-->
-                            <!--begin::Nav item-->
-                <!-- <li class="nav-item mt-2">
-                    <a class="nav-link text-active-primary ms-0 me-10 py-5 " href="/metronic8/demo1/../demo1/pages/user-profile/followers.html">
-                        Followers                    </a>
-                </li> -->
-                <!--end::Nav item-->
-                            <!--begin::Nav item-->
                 <li class="nav-item mt-2">
-                    <a class="nav-link text-active-primary ms-0 me-10 py-5 " href="#">
+                    <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="{{ route('frontend.activity') }}">
                         Activity                    </a>
                 </li>
                 <!--end::Nav item-->

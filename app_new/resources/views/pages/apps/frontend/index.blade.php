@@ -1,7 +1,7 @@
 <x-default-layout>
 
     @section('title')
-        Training Session
+        Permissions
     @endsection
 
     @section('breadcrumbs')

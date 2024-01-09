@@ -1,12 +1,10 @@
 <x-default-layout>
 
     @section('title')
-        Permissions
+        Conversion Review
     @endsection
 
-    @section('breadcrumbs')
-        {{ Breadcrumbs::render('user-management.permissions.index') }}
-    @endsection
+   
 <style>
 .form-check-box {
     border: 1px solid #f1f1f4;

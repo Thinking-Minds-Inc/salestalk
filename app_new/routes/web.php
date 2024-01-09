@@ -29,61 +29,68 @@ Route::middleware(['auth', 'verified'])->group(function () {
         Route::resource('/user-management/roles', RoleManagementController::class);
         Route::resource('/user-management/permissions', PermissionManagementController::class);
 
-        Route::get('/user-management/training-session', function(){
+        Route::get('/training-session', function(){
             return view('pages.apps.user-management.training-session.index');
-        })->name('user-management.training-session');
+        })->name('training-session');
 
-        Route::get('/user-management/conversion-review', function(){
+        Route::get('/conversion-review', function(){
             return view('pages.apps.user-management.conversion-review.index');
-        })->name('user-management.conversion-review');
+        })->name('conversion-review');
          
-        Route::get('/user-management/training-session/activity', function(){
-            return view('pages.apps.user-management.training-session.activity');
-        })->name('user-management.training-session.activity');
-
-        Route::get('/user-management/training-session/projects', function(){
-            return view('pages.apps.user-management.training-session.projects');
-        })->name('user-management.training-session.projects');
-
-        Route::get('/user-management/training-session/single-project', function(){
-            return view('pages.apps.user-management.training-session.single-project');
-        })->name('user-management.training-session.single-project');
-
-        Route::get('/user-management/training-session/billing', function(){
-            return view('pages.apps.user-management.training-session.billing');
-        })->name('user-management.training-session.billing');        
-
-        Route::get('/user-management/training-session/profile', function(){
-            return view('pages.apps.user-management.training-session.profile');
-        })->name('user-management.training-session.profile');
-         
-        Route::get('/user-management/help-support/faq', function(){
-            return view('pages.apps.user-management.help-support.faq');
-        })->name('user-management.help-support.faq');   
-
-        Route::get('/user-management/help-support/contact', function(){
-            return view('pages.apps.user-management.help-support.contact');
-        })->name('user-management.help-support.contact');  
-
-        Route::get('/user-management/help-support/organization', function(){
+        Route::get('/organization', function(){
             return view('pages.apps.user-management.help-support.organization');
-        })->name('user-management.help-support.organization');         
+        })->name('organization');     
         
+        Route::get('/conversation', function(){
+            return view('pages.apps.user-management.training-session.conversation');
+        })->name('conversation'); 
         
-        Route::get('/user-management/training-session/subscriptions', function(){
-            return view('pages.apps.user-management.training-session.subscriptions');
-        })->name('user-management.training-session.subscriptions');   
-
-         
-        Route::get('/user-management/training-session/upgrade-plan', function(){
-            return view('pages.apps.user-management.training-session.upgrade-plan');
-        })->name('user-management.training-session.upgrade-plan');   
-
-         
-
     });
 
 });
+
+ Route::get('/frontend/activity',function(){
+   return view('pages.apps.frontend.activity');
+ })->name('frontend.activity');
+
+
+ Route::get('/frontend/billing',function(){
+    return view('pages.apps.frontend.billing');
+  })->name('frontend.billing');
+ 
+  Route::get('/frontend/contact',function(){
+    return view('pages.apps.frontend.contact');
+  })->name('frontend.contact');
+
+  Route::get('/frontend/faq',function(){
+    return view('pages.apps.frontend.faq');
+  })->name('frontend.faq');
+
+  Route::get('/frontend/profile',function(){
+    return view('pages.apps.frontend.profile');
+  })->name('frontend.profile');
+
+  Route::get('/frontend/projects',function(){
+    return view('pages.apps.frontend.projects');
+  })->name('frontend.projects');
+
+  Route::get('/frontend/single-project',function(){
+    return view('pages.apps.frontend.single-project');
+  })->name('frontend.single-project');
+
+  Route::get('/frontend/subscriptions',function(){
+    return view('pages.apps.frontend.subscriptions');
+  })->name('frontend.subscriptions');
+
+  Route::get('/frontend/upgrade-plan',function(){
+    return view('pages.apps.frontend.upgrade-plan');
+  })->name('frontend.upgrade-plan');
+
+  Route::get('/frontend/settings',function(){
+    return view('pages.apps.user-management.training-session.setting');
+  })->name('frontend.settings');
+
+
 
 Route::get('/error', function () {
     abort(500);
