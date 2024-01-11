@@ -1,3 +1,37 @@
+<style>
+	.menu-text-color{
+		color: #bfbfbf;
+	}
+	.menu-text-color:hover,
+	.menu-text-color.active{
+		color: #ffffff;
+	}
+	/* training form css */
+	#training-session .form-check-box {
+		border: 1px solid #f1f1f4;
+		border-radius: 10px;
+	}
+
+	#training-session .form-check-box .form-check {
+		padding: 15px 10px 15px 3.25rem;
+		border-bottom: 1px solid #f1f1f4;
+	}
+	#training-session .form-check-box .form-check:last-child {
+		border: none;
+	} 
+	.table-responsive td.table-action {
+		display: flex;
+		align-items: center;
+		gap: 2px;
+	} 
+	/* .table-action a .bi-pencil-square {
+		color: green;
+	}
+	.table-action a .bi-trash3 {
+		color: red;
+	}	  		 */
+
+	</style>
 <!--begin::Header-->
 <div id="kt_app_header" class="app-header" data-kt-sticky="true" data-kt-sticky-activate="{default: true, lg: true}" data-kt-sticky-name="app-header-minimize" data-kt-sticky-offset="{default: '200px', lg: '0'}" data-kt-sticky-animation="false">
 	<!--begin::Header container-->

@@ -702,7 +702,7 @@
 
             <!--begin::Text-->
             <div class="p-5 rounded bg-light-info text-gray-900 fw-semibold mw-lg-400px text-start" data-kt-element="message-text" bis_skin_checked="1">
-                You can unwatch this repository immediately by clicking here: <a href="https://keenthemes.com">Keenthemes.com</a>            </div>
+                You can unwatch this repository immediately by clicking here: <a href="#">Keenthemes.com</a>            </div>
             <!--end::Text-->
         </div>
         <!--end::Wrapper-->
@@ -775,7 +775,7 @@
                     </div>
                     <!--end::Details-->
 
-                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle " bis_skin_checked="1"><img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
+                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle " bis_skin_checked="1"><img alt="Pic" src="{{asset('assets/media/avatars/300-1.jpg')}}"></div><!--end::Avatar-->                 
             </div>
             <!--end::User-->
 
@@ -794,7 +794,7 @@
         <div class="d-flex flex-column align-items-start" bis_skin_checked="1">
             <!--begin::User-->
             <div class="d-flex align-items-center mb-2" bis_skin_checked="1">
-                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle " bis_skin_checked="1"><img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
+                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle " bis_skin_checked="1"><img alt="Pic" src="{{asset('assets/media/avatars/300-25.jpg')}}"></div><!--end::Avatar-->
                     <!--begin::Details-->
                     <div class="ms-3" bis_skin_checked="1">
                         <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
@@ -977,7 +977,7 @@
                                 <div class="d-flex align-items-center" bis_skin_checked="1">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-1.jpg">
+                                                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-1.jpg')}}">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -1019,7 +1019,7 @@
                                 <div class="d-flex align-items-center" bis_skin_checked="1">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-5.jpg">
+                                                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-5.jpg')}}">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -1061,7 +1061,7 @@
                                 <div class="d-flex align-items-center" bis_skin_checked="1">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-25.jpg">
+                                                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-25.jpg')}}">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -1146,7 +1146,7 @@
                                 <div class="d-flex align-items-center" bis_skin_checked="1">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-9.jpg">
+                                                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-9.jpg')}}">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -1274,7 +1274,7 @@
                                 <div class="d-flex align-items-center" bis_skin_checked="1">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-23.jpg">
+                                                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-23.jpg')}}">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -1359,7 +1359,7 @@
                                 <div class="d-flex align-items-center" bis_skin_checked="1">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-12.jpg">
+                                                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-12.jpg')}}">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -1766,7 +1766,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-5.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-5.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -1808,7 +1808,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-25.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-25.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -1893,7 +1893,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-9.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-9.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -2021,7 +2021,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-23.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-23.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -2106,7 +2106,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-12.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-12.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -2191,7 +2191,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-13.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-13.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -2276,7 +2276,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-21.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-21.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -2318,7 +2318,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle" bis_skin_checked="1">
-                                                    <img alt="Pic" src="/metronic8/demo1/assets/media/avatars/300-9.jpg">
+                                                    <img alt="Pic" src="{{asset('assets/media/avatars/300-9.jpg')}}">
                                             </div>
                     <!--end::Avatar-->
 
@@ -2373,7 +2373,7 @@
 
     <!--begin::Illustration-->
     <div class="text-center px-5" bis_skin_checked="1">
-        <img src="/metronic8/demo1/assets/media/illustrations/sketchy-1/1.png" alt="" class="w-100 h-200px h-sm-325px">        
+        <img src="{{asset('assets/media/illustrations/sketchy-1/1.png')}}" alt="" class="w-100 h-200px h-sm-325px">        
     </div>
     <!--end::Illustration-->
 </div>

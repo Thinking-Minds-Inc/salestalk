@@ -15,12 +15,12 @@
     padding: 15px 10px 15px 3.25rem;
     border-bottom: 1px solid #f1f1f4;
 }
-.table-action a .bi-pencil-square {
+/* .table-action a .bi-pencil-square {
     color: green;
 }
 .table-action a .bi-trash3 {
     color: red;
-}
+} */
 .form-check-box .form-check:last-child {
     border: none;
 } 
@@ -72,13 +72,11 @@
             <h2 class="page-heading d-flex text-gray-900 fw-bold fs-3">Recordings</h2>
             <span>290 recordings</span>
         </div>
-        <div class="row">             
+        <form class="row">             
         <div class="col-sm-6 col-md-2 first-col my-1">            
             <select class="form-select form-select-solid text-gray-600 fw-bold" aria-label="Default select example">
                 <option selected>Call Source</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="1">Roleplay</option>
             </select>
         </div>
         <div class="col-sm-6 col-md-3 first-col  my-1">            
@@ -86,16 +84,21 @@
                 <!--begin::Display range-->
                 <div class="text-gray-600 fw-bold" bis_skin_checked="1">5 Dec 2023 - 3 Jan 2024 5:53 PM</div>
                 <!--end::Display range-->
-
-                <i class="ki-duotone ki-calendar-8 text-gray-500 lh-0 fs-2 ms-2 me-0"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>       
+                <i class="ki-duotone ki-calendar-8 text-gray-500 lh-0 fs-2 ms-2 me-0">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                    <span class="path5"></span>
+                    <span class="path6"></span>
+                </i>       
             </div>
         </div>         
         <div class="col-sm-6 col-md-2 first-col my-1">            
             <select class="form-select form-select-solid text-gray-600 fw-bold" aria-label="Default select example">
                 <option selected>Outcome</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="1">Do Not Call List</option>
+                <option value="2">Follow Up</option>
             </select>
         </div> 
         <div class="col-sm-6 col-md-3 first-col  my-1">            
@@ -152,7 +155,7 @@
                 <!--end::Modal-->
             </div>
             <!--end::Card toolbar-->
-        </div>
+    </form>
         <!--end::Card header-->
     </div>
         <!--begin::Card body-->
@@ -163,7 +166,7 @@
             <thead class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
                 <tr>
                     <th class="sorting_1"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
-                    <th class="sorting sorting_desc" rowspan="1" colspan="1">Cobtact Name</th>
+                    <th class="sorting sorting_desc" rowspan="1" colspan="1">Contact Name</th>
                     <th class="sorting">Contact Number</th>
                     <th class="text-nowrap sorting">Call Source</th>
                     <th class="text-nowrap sorting">Direction</th>
@@ -288,8 +291,21 @@
                             <h3>Notes form Roleplay</h3>
                             <span>12/05/2023 5:32 PM</span>
                         </div>
-                        <div class="border p-5 my-5 rounded">
-                            <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                        <div class="border p-5 my-5 rounded h-400px overflow-y-auto">
+                        <p><b>General context / background on prospect:</b></p>
+                        <p>- The prespect's name is Nash.</p>
+                        <p>- The rep did not speak to the right person.</p>
+
+                        <p><b>Notes:</b></p>
+                        <p>- The call starts with thr bot asking, "Hi. is this Nash?"</p>
+                        <p>- The prospect responds, "no."</p>
+
+                        <p><b>Quotes:</b></p>
+                        <p>- Bot: "Hi. is this Nash?"</p>
+                        <p>- Prospect: "no."</p>
+                        <p>- Bot: "Alright"</p>
+                        <p>BOT: I must have gotten the wrong numner then.</p>
+                        <p>BOT: Goodbye. </p>                        
                         </div>
                         <div class="d-flex gap-3">
                         <button type="button" class="btn btn-primary w-50" data-bs-dismiss="modal">Copy</button>
@@ -302,7 +318,11 @@
                             <span>12/05/2023 5:32 PM</span>
                         </div> 
                         <div class="border p-5 my-5 rounded">                       
-                            <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                            <p>BOT:~ "Hi. is this Nash?"
+                            <p>HUMAN: no</p>
+                            <p>BOT: Alright</p>
+                            <p>BOT: I must have gotten the wrong numner then.</p>
+                            <p>BOT: Goodbye. </p>
                         </div>
                     <div class="d-flex gap-3">                        
                         <button type="button" class="btn btn-primary w-50" data-bs-dismiss="modal">Copy</button>

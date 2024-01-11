@@ -1,11 +1,5 @@
 <!--begin::Navbar-->
 <div class="app-navbar flex-shrink-0">
-    <!--begin::Search-->
-    <div class="app-navbar-item align-items-stretch ms-1 ms-md-3">
-        @include(config('settings.KT_THEME_LAYOUT_DIR').'/partials/sidebar-layout/search/_dropdown')
-    </div>
-    <!--end::Search-->
-
     <!--begin::User menu-->
 	<div class="app-navbar-item ms-1 ms-md-4" id="kt_header_user_menu_toggle">
         <!--begin::Menu wrapper-->

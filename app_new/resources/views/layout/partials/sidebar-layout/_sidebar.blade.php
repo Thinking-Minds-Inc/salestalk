@@ -5,3 +5,20 @@
 	@include(config('settings.KT_THEME_LAYOUT_DIR').'/partials/sidebar-layout/sidebar/_footer')
 </div>
 <!--end::Sidebar-->
+<style>
+		@media only screen and (min-width: 992px){
+		[data-kt-app-sidebar-hoverable=true][data-kt-app-sidebar-minimize=on] .app-sidebar:hover:not(.animating) {
+			transition: width 0.3s ease;
+			width: 75px !important;
+		}
+		.[data-kt-app-sidebar-hoverable=true][data-kt-app-sidebar-minimize=on] .app-sidebar:hover .menu-title{
+			opacity: 0;
+		}
+ 
+		[data-kt-app-sidebar-minimize=on][data-kt-app-sidebar-hoverable=true] .app-sidebar:hover .app-sidebar-menu .menu-title {
+			opacity: 0 !important;
+			transition: opacity 0.3s ease !important;
+		}
+
+	}
+</style>
