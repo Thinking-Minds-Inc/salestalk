@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UsersSeeder::class,
             RolesPermissionsSeeder::class,
+            AddTrainingSessionOptions::class
         ]);
 
         \App\Models\User::factory(20)->create();
