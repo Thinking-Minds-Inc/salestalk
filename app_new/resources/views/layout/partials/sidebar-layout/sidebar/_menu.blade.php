@@ -24,21 +24,12 @@
 				</span>
 				<!--end:Menu link-->
 			</div>
-			<div class="menu-item menu-accordions">
-				<!--begin:Menu link-->
-				<span class="menu-link">
-					<span class="menu-icon">{!! getIcon('element-8', 'fs-2') !!}</span>
-					<span class="menu-title"><a class="menu-text-color {{ Route::is('user-management.conversation') ? 'active' : '' }}" href="{{route('user-management.conversation')}}">Conversation</a></span>
-					<!-- <span class="menu-arrow"></span> -->
-				</span>
-				<!--end:Menu link-->
-			</div>
 			<!--end:Menu item-->			
 			<div class="menu-item menu-accordions">
 				<!--begin:Menu link-->
 				<span class="menu-link">
 					<span class="menu-icon">{!! getIcon('element-12', 'fs-2') !!}</span>
-					<span class="menu-title"><a class="menu-text-color {{ Route::is('user-management.conversion-review') ? 'active' : '' }}" href="{{route('user-management.conversion-review')}}">Conversion Review</a></span>
+					<span class="menu-title"><a class="menu-text-color {{ Route::is('user-management.conversion-review') ? 'active' : '' }}" href="{{route('user-management.conversion-review')}}">Conversation Review</a></span>
 					<!-- <span class="menu-arrow"></span> -->
 				</span>
 				<!--end:Menu link-->

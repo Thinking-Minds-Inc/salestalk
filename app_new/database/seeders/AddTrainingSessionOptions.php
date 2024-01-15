@@ -55,7 +55,7 @@ class AddTrainingSessionOptions extends Seeder
         ];
         foreach ($tones as $tone) {
             ToneOption::create([
-                'value' => $voice
+                'value' => $tone
             ]);
         }
         $scenarios  =[
@@ -72,7 +72,7 @@ class AddTrainingSessionOptions extends Seeder
         ];
         foreach ($scenarios as $scenario) {
             ConversationScenarioOption::create([
-                'value' => $voice
+                'value' => $scenario
             ]);
         }
     }

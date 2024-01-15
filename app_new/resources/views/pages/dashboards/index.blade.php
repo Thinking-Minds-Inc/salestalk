@@ -31,11 +31,13 @@
             <!--end::Title-->
 
             <!--begin::Toolbar-->
+            <!--
             <div class="card-toolbar" bis_skin_checked="1">            
                 <a href="{{route('user-management.training-session')}}" class="btn btn-light-primary">
                     {!! getIcon('plus-square','fs-3', '', 'i') !!} ADD                       
                 </a>
             </div>
+-->
             <!--end::Toolbar-->
         </div>
         <!--end::Header--> 
@@ -43,34 +45,28 @@
         <!--begin::Body-->
         <div class="card-body py-6" bis_skin_checked="1">  
             <!--begin::Table-->
-            <div class="table-responsive">
-                <table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer text-gray-600 fw-semibold">
-                    <thead>
-                        <tr>
-                            <th scope="col">Name</th>
-                            <th scope="col">Training Session</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Mark</th>
-                            <td>Mark</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Jacob</th>
-                            <td>Jacob</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Jacob</th>
-                            <td>Larry the Bird</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Jacob</th>
-                            <td>Larry the Bird</td>
-                        </tr>                        
-                    </tbody>
-                    </table>                
-            </div>
+            @if (count($sessions)>0)
+                <div class="table-responsive">
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer text-gray-600 fw-semibold">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Training Session</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($sessions as $session)
+                                <tr>
+                                    <th scope="row">{{$session['name']}}</th>
+                                    <td>{{$session['name']}}</td>
+                                </tr>
+                            @endforeach
+                        </tbody>
+                        </table>                
+                </div>
+            @else
+                <center><h5>No training sessions available</h5></center>
+            @endif
             <!--end::Table-->            
         </div>
         <!--end::Body-->     
@@ -90,11 +86,13 @@
             </h4>
             <!--end::Title-->
             <!--begin::Toolbar-->
+            <!--
             <div class="card-toolbar" bis_skin_checked="1">            
                 <a href="{{route('user-management.conversion-review')}}" class="btn btn-light-warning">
                     {!! getIcon('plus-square','fs-3', '', 'i') !!} ADD                   
                 </a>
             </div>
+-->
             <!--end::Toolbar-->            
         </div>
         <!--end::Header--> 
@@ -102,44 +100,29 @@
         <!--begin::Body-->
         <div class="card-body py-6" bis_skin_checked="1">  
             <!--begin::Table-->
-            <div class="table-responsive">
-                <table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer text-gray-600 fw-semibold">
-                    <thead>
-                        <tr>
-                            <th scope="col">Contact Name</th>
-                            <th scope="col">Contact Number</th>
-                            <th scope="col">Call Source</th>
-                            <th scope="col">Direction</th>                            
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Mark</th>
-                            <td class="text-nowrap">+1234569870</td>
-                            <td class="text-nowrap">Roleplay</td>
-                            <td class="text-nowrap">Outboard</td>                            
-                        </tr>
-                        <tr>
-                            <th scope="row">Jacob</th>
-                            <td class="text-nowrap">+1234569870</td>
-                            <td class="text-nowrap">Roleplay</td>
-                            <td class="text-nowrap">Outboard</td>                            
-                        </tr>
-                        <tr>
-                            <th scope="row">Jacob</th>
-                            <td class="text-nowrap">+1234569870</td>
-                            <td class="text-nowrap">Roleplay</td>
-                            <td class="text-nowrap">Outboard</td>                              
-                        </tr>
-                        <tr>
-                            <th scope="row">Jacob</th>
-                            <td class="text-nowrap">+1234569870</td>
-                            <td class="text-nowrap">Roleplay</td>
-                            <td class="text-nowrap">Outboard</td>                              
-                        </tr>                        
-                    </tbody>
-                    </table>                
-            </div>
+            @if (count($recordings)>0)
+                <div class="table-responsive">
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer text-gray-600 fw-semibold">
+                        <thead>
+
+                            <tr>
+                                <th scope="col">Session ID</th>
+                                <th scope="col">Size</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($recordings as $recording)
+                                <tr>
+                                    <th scope="row">{{$recording['session_id']}}</th>
+                                    <td class="text-nowrap">{{$recording['size']}}</td>
+                                </tr>
+                            @endforeach
+                        </tbody>
+                        </table>                
+                </div>
+            @else
+                <center><h5>No recordings available</h5></center>
+            @endif
             <!--end::Table-->               
         </div>
         <!--end::Body-->     

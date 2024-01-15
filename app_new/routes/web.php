@@ -5,6 +5,7 @@ use App\Http\Controllers\Apps\RoleManagementController;
 use App\Http\Controllers\Apps\UserManagementController;
 use App\Http\Controllers\Auth\SocialiteController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SessionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,13 +30,13 @@ Route::middleware(['auth', 'verified'])->group(function () {
         Route::resource('/user-management/roles', RoleManagementController::class);
         Route::resource('/user-management/permissions', PermissionManagementController::class);
 
-        Route::get('/training-session', function(){
-            return view('pages.apps.user-management.training-session.index');
-        })->name('training-session');
+        Route::get('/training-session', 'App\Http\Controllers\SessionController@index')->name('training-session');
+        Route::post('/training-session/create', 'App\Http\Controllers\SessionController@create')->name('training-session-create');
 
-        Route::get('/conversion-review', function(){
-            return view('pages.apps.user-management.conversion-review.index');
-        })->name('conversion-review');
+        Route::get('/training-session/start', 'App\Http\Controllers\SessionController@session_start')->name('training-session-start');
+        Route::post('/training-session/end', 'App\Http\Controllers\SessionController@session_end')->name('training-session-end');
+
+        Route::get('/conversion-review', 'App\Http\Controllers\ConversationReviewController@index')->name('conversion-review');
          
         Route::get('/organization', function(){
             return view('pages.apps.user-management.help-support.organization');
